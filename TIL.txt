@@ -32,3 +32,6 @@ tracking
 
 2. 1주차 주요 개념 키워드
 - 버전관리, git 초기화, add(staging), commit(commit msg), commit history, tracking, pull, push, clone
+
+순서
+작업디렉터리 생성 - git 초기화 - 프로젝트 add  - commit - 원격 repo 생성 - tracking(local -- remote) - 로컬 repo에서 원격 repo로 push - commit history 확인 - 필요시 clone
