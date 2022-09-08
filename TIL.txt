@@ -1,0 +1,34 @@
+Git 프로젝트 만드는 방법
+
+버전관리
+- 프로젝트가 진행되면서 수정, 업데이트 되는 정보를 git을 통해 commit을 사용해서 누가, 언제 , 어떻게 변경 되었는지 기록을 남기는 것을 버전관리라고 한다.
+
+git 초기화(intialize, init)
+- git 초기화는 프로젝트 파일이 있는 작업 디렉토리를 git이 관리할 수 있도록 git 프로젝트로 설정하는 것을 git 초기화(initialze, init)라고 한다.
+
+add /staging
+- 내가 수정한 파일을 commit 하기 위해 파일을 선택하는 것이 add(staging)이고 예를 들어 메일을 보낼 때 첨부파일을 선택하는 과정과 비슷하다고 보면 이해하기 쉽다.
+
+commit (커밋)
+- 현재 프로젝트의 상태를 저장하는 것을 commit이라 하고, 수정한 파일을 add하여 업로드 한다고 생각하면 된다. commit을 할 때는 누가, 언제, 프로젝트를 어떻게 변경했는지 메시지를 남겨야 하며, 이것을 commit 메시지라고 부른다.
+
+commit 내역(history)
+- commit의 history는 프로젝트가 처음 commit 되었을 때부터 가장 최근 commit한 내역까지의 기록이며 프로젝트를 작업하면서 새롭게 추가하거나, 삭제되거나, 변경된 것을 편리하게 확인할 수 있다.
+
+push
+- push는 나의 로컬 repo에서 commit한 결과물을 원격repo에 반영될 수 있도록 업데이트 하는 과정이다.
+
+pull
+- pull은 원격 repo에서 commit된 결과물을 나의 로컬 repo로 가져오며 이또한 원격 repo에서 commit한 결과물이 나의 로컬 repo로 가져와 업데이트 된다고 보면 된다.
+
+clone
+- 원격 repo 를 내 컴퓨터에서도 사용할 수 있도록 가져오는 것을 clone이라 하며 git이 관리중인 프로젝트 파일들이 담겨져 있는 작업 디렉터리를 내 pc에 가져올 수 있고, url을 통해서 원격 repo에 접근할 수도 있다.
+
+tracking
+- Github의 원격 repo가 내 pc의 로컬 repo를 연결하여 로컬 repo가 원격 repo를 추적할 수 있도록 하는것이 tracking이며 commit을 해서 pull, push로 상호작용 한다.
+
+1. 앞으로 git 프로젝트로 만들고 싶은 것
+- 나의 개인 프로젝트를 git으로 commit하여 관리하고 싶고, 팀원들과 git으로 협업하여 팀프로젝트를 만들고 싶다.
+
+2. 1주차 주요 개념 키워드
+- 버전관리, git 초기화, add(staging), commit(commit msg), commit history, tracking, pull, push, clone
