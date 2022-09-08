@@ -35,3 +35,5 @@ tracking
 
 순서
 작업디렉터리 생성 - git 초기화 - 프로젝트 add  - commit - 원격 repo 생성 - tracking(local -- remote) - 로컬 repo에서 원격 repo로 push - commit history 확인 - 필요시 clone
+
+ver.3 원격 repo에서 로컬 repo로 pull 받아서 수정 후 원격 repo == 로컬 repo 동기화를 위해 다시 commit  
