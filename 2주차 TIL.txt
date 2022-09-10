@@ -1,0 +1,13 @@
+TIL 2주차(협업을 위한 git 사용법)
+1. 협업할 때의 순서
+Issue할당 -> branch생성 -> 내 branch 체크아웃 -> Pull requets -> merger -> merge conflict
+
+- Issue : 프로젝트 기능별 담당자 할당(기능 추가, 버그 리포트 등)
+- check out : 특정 branch로 작업하려고 할 때 해당 brach를 선택하는 것
+- Branch : 내가 할당 받은 작업을 main에서 갈라져 나온 별도의 branch로 작업하여 main 혹은 다른 branch에 영향을 받지 않음(동일한 파일 수정 시 충돌 발생 주의)
+- Pull requests : 내가 작업한 프로젝트를 메인 혹은 다른 브랜치에 병합하기 전 다른 사람들의 의견을 수렴하는 단계
+- merge : 내가 작업한 branch를 main or other branch에 병합하는 것
+- merge conflict : 브랜치 병합으로 인한 충돌 발생(주로 같은 파일 동시 수정 시 발생)
+- tracking - 로컬 repo와 원격 repo의 특정 브랜치를 push하여 연결해주는 것
+(브랜치 별로 원격 repo와 tracking이 가능하며 tracking이 되었더라도 push는 해주어야 한다.) 
+  
